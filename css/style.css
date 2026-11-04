@@ -38,6 +38,30 @@ section > .container > p {
     text-align: center;
 }
 
+header {
+    background-color: #111827;
+    border-bottom: 1px solid #263247;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0;
+    padding: 18px 0;
+    list-style: none;
+}
+
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
 @media (max-width: 768px) {
     section {
         padding: 50px 0;
