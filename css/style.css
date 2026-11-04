@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+    display: flex;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -29,7 +30,10 @@ header h1 {
 }
 
 nav ul {
+    display: flex;
+    align-items: left;
     list-style: none;
+    gap: 20px;
 }
 
 nav ul li a {
