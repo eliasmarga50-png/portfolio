@@ -68,6 +68,33 @@ nav a:hover {
     }
 }
 
+.menu-button {
+    display: none;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    color: #e5e7eb;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu-button {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 12px;
+        padding: 0 0 18px;
+    }
+
+    nav.open ul {
+        display: flex;
+    }
+}
+
 /* Hero Section */
 #home {
     background: linear-gradient(135deg, #111827, #172554);
